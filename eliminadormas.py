@@ -2,10 +2,10 @@ import pandas as pd
 import re
 
 # Ruta del archivo de entrada
-archivo_entrada = 'dimaria777.xlsx'
+archivo_entrada = 'v1.xlsx'
 
 # Ruta del archivo de salida
-archivo_salida = 'dimaria7777.xlsx'
+archivo_salida = 'v2.xlsx'
 
 # Columna a limpiar (indexada en base 0)
 columna_limpiar = 0

@@ -8,6 +8,7 @@ data.head(3)
 
 
 for i in range(len(data)):
+
     celular = str(data.loc[i, 'cel'])  # Convert to string
     celular = celular
     nombre = data.loc[i, 'nombre']
@@ -19,6 +20,7 @@ for i in range(len(data)):
 
 
     # Create personalized message
+
     mensaje = producto +", " + nombre + ""
 
     # Rest of your code...
